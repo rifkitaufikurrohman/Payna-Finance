@@ -1,0 +1,345 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./src/style.css" rel="stylesheet">
+  <title>Finance Company Profile</title>  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body class="">
+
+  <!-- NAVBAR -->
+  <header id="navigation" class="w-full">
+    <div class="container  py-5 ">
+      <div class="flex items-center justify-between">
+
+        <div class="">
+          <a href="#home" class="block">
+            <img src="./asset/img/logo-main-x4.png" class="w-[150px]"  alt="">
+          </a>
+        </div>
+
+        <div class="flex items-center">
+          <button id="hamburger" name="hamburger" type="button" class="block right-4 md:hidden">
+            <span class="transition duration-300 origin-top-left hamburger-line"></span>
+            <span class="transition duration-300 hamburger-line"></span>
+            <span class="transition duration-300 origin-bottom-left hamburger-line"></span>
+          </button>
+
+          <nav id="nav-menu" class="hidden md:block">
+            <ul class="md:flex">
+              <li class="group">
+                <a href="#home" class="flex py-2 mx-5 text-base text-dark group-hover:underline">Home</a>
+              </li> 
+              <li class="group">
+                <a href="#about" class="flex py-2 mx-5 text-base text-dark group-hover:underline">Features</a>
+              </li>
+              <li class="group">
+                <a href="#portfolio" class="flex py-2 mx-5 text-base text-dark group-hover:underline">Showcase</a>
+              </li>
+              <li class="group">
+                <a href="#clients" class="flex py-2 mx-5 text-base text-dark group-hover:underline">Pricing</a>
+              </li>
+            </ul>
+          </nav>  
+        </div>
+
+        <div class="">
+          <button class="px-5 py-2 bg-gray_custom rounded-full text-black hidden lg:block hover:bg-gray-200 transition-all ease-in-out duration-300">
+            Sign In
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <!-- End Navbar -->
+
+  <!-- Start Hero -->
+    <section id="hero " class="">
+      <div class="container py-5 ">
+        <div class="flex flex-col xl:flex-row xl:justify-center xl:items-center xl:mx-auto">
+
+          <!-- img-Hero -->
+          <div class="mx-auto xl:order-2 xl:w-[60%]">
+            <img src="./asset/img/hero-x4.png" alt="img-hero" class="lg:w-[700px] xl:w-full">
+          </div>
+
+          <!-- Text-Hero -->
+          <div class="my-10 xl:order-1 xl:w-[40%]">
+            <div class="">
+              <h1 class="text-4xl font-bold mb-5 text-center leading-relaxed xl:text-start">
+                Manage Payroll <br class="hidden md:block"> Like an Expert
+              </h1>
+              <p class="text-base leading-7 text-gray_custom2 mb-8 md:text-center xl:text-start">
+                Payna is helping you to setting up
+                the payroll without <br class="hidden xl:block"> required any finance
+                skills or knowledge before
+              </p>
+              <div class="flex justify-center xl:justify-start">
+                <button class="px-5 py-2 bg-blue_custom rounded-full text-white font-semibold hover:bg-blue-700 transition-all ease-in-out duration-300">
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Sponsor Companies -->
+        <div class="mt-[50px] mb-20">
+          <div class="flex flex-col xl:flex-row xl:justify-between xl:items-center">
+            <div class="">
+              <h5 class="text-lg font-bold mb-8 md:text-center xl:text-start">
+                Trusted by <br class="hidden xl:block"> Global Companies
+              </h5>
+            </div>
+
+            <div class="flex flex-wrap gap-8 md:justify-center">
+              <img src="./asset/img/support-1-x4.png" alt="support-1" class="w-[87px]">
+              <img src="./asset/img/support-2-x4.png" alt="support-2" class="w-[110px]">
+              <img src="./asset/img/support-3-x4.png" alt="support-3" class="w-[104px]">
+              <img src="./asset/img/support-4-x4.png" alt="support-4" class="w-[87px]">
+              <img src="./asset/img/support-5-x4.png" alt="support-5" class="w-[87px]">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- End Hero -->
+
+
+  <!-- Start Business -->
+    <section id="business">
+      <div class="container mb-[70px]">
+        <div class="flex flex-col">
+          <h4 class="text-orange font-bold text-xl text-center mb-1">
+            WORK BETTER
+          </h4>
+          <h2 class="text-3xl font-bold text-center mb-5">
+            For Your Business
+          </h2>
+          <p class="text-base leading-7 text-gray_custom2 mb-[50px] text-center">
+            We did research what your company needs and <br class="hidden md:block">
+            here we are providing all of them just for you
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-y-[60px] md:flex-row md:flex-wrap">
+
+          <!-- Card Business -->
+          <div class="w-full flex items-center gap-x-6 justify-center md:w-1/2 md:items-start xl:w-1/3 xl:order-1">
+            <div class="">
+              <img src="./asset/img/business-1-x4.png" class="size-[60px]" alt="">
+            </div>
+            <div class="w-2/3">
+              <h5 class="text-xl font-semibold mb-3">
+                Share Insights
+              </h5>
+              <p>
+                Working together with your
+                team to make decisions
+              </p>
+            </div>
+          </div>
+
+          <!-- Card Business -->
+          <div class="w-full flex items-center gap-x-6 justify-center md:w-1/2 md:items-start xl:w-1/3 xl:order-3">
+            <div class="">
+              <img src="./asset/img/business-3-x4.png" class="size-[60px]" alt="">
+            </div>
+            <div class="w-2/3">
+              <h5 class="text-xl font-semibold mb-3">
+                Offline Mode
+              </h5>
+              <p>
+                Use the feature while off
+                from internet? sure can
+              </p>
+            </div>
+          </div>
+
+          <!-- Card Business -->
+          <div class="w-full flex items-center gap-x-6 justify-center md:w-1/2 md:items-start xl:w-1/3 xl:order-4">
+            <div class="">
+              <img src="./asset/img/business-4-x4.png" class="size-[60px]" alt="">
+            </div>
+            <div class="w-2/3">
+              <h5 class="text-xl font-semibold mb-3">
+                Kanban Mode
+              </h5>
+              <p>
+                Organize the report that
+                easy to be understand
+              </p>
+            </div>
+          </div>
+
+          <!-- Card Business -->
+          <div class="w-full flex items-center gap-x-6 justify-center md:w-1/2 md:items-start xl:w-1/3 xl:order-2">
+            <div class="">
+              <img src="./asset/img/business-2-x4.png" class="size-[60px]" alt="">
+            </div>
+            <div class="w-2/3">
+              <h5 class="text-xl font-semibold mb-3">
+                Track Leads
+              </h5>
+              <p>
+                See where your money goes
+                and comes in business
+              </p>
+            </div>
+          </div>
+
+          <!-- Card Business -->
+          <div class="w-full flex items-center gap-x-6 justify-center md:w-1/2 md:items-start xl:w-1/3 xl:order-[5]">
+            <div class="">
+              <img src="./asset/img/business-6-x4.png" class="size-[60px]" alt="">
+            </div>
+            <div class="w-2/3">
+              <h5 class="text-xl font-semibold mb-3">
+                189 Country
+              </h5>
+              <p>
+                Working together worldwide
+                people from anywhere
+              </p>
+            </div>
+          </div>
+
+
+          <!-- Card Business -->
+          <div class="w-full flex items-center gap-x-6 justify-center md:w-1/2 md:items-start xl:w-1/3 xl:order-[6]">
+            <div class="">
+              <img src="./asset/img/business-5-x4.png" class="size-[60px]" alt="">
+            </div>
+            <div class="w-2/3">
+              <h5 class="text-xl font-semibold mb-3">
+                Reward System
+              </h5>
+              <p>
+                Motivate your team working
+                harder and receive a gift
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  <!-- End Business -->
+
+
+  <!-- Start Join -->
+    <section id="join">
+      <div class="container py-5 mb-10">
+        <div class="flex flex-col xl:flex-row xl:items-center xl:mx-auto xl:justify-center">
+
+          <!-- img-Hero -->
+          <div class="mx-auto xl:w-[60%] xl:flex xl:justify-center">
+            <img src="./asset/img/hero-bottom-x4.png" alt="img-hero" class="mb-10 lg:w-[600px] xl:mb-0">
+          </div>
+
+          <!-- Text-Hero -->
+          <div class="flex flex-col xl:w-[40%] ">
+            <h4 class="text-orange font-bold text-xl text-center mb-1 xl:text-start">
+              SAVE MORE TIME
+            </h4>
+            <h2 class="text-3xl font-bold text-center mb-5 xl:text-start">
+              And Boost Productivity
+            </h2>
+            <p class="text-base leading-7 text-gray_custom2 mb-[50px] text-center xl:text-start">
+              Your employees can bring any success into your <br class="hidden md:block">
+              business, so we need to take care of them
+            </p>
+
+            <div class="flex flex-col gap-y-3 md:flex-row md:mx-auto xl:mx-0">
+              <input type="text" placeholder="Email Address" class="block px-6 py-3 bg-gray_custom rounded-full placeholder-gray_custom2 focus:ring focus:ring-blue-500">
+              <button class="block px-6 py-3 bg-blue_custom rounded-full font-semibold text-white md:-ms-10 hover:bg-blue-600 transition-all ease-in-out duration-300">
+                Get Started
+              </button>
+            </div>
+          </div>
+
+
+      </div>
+    </section>
+  <!-- End Join -->
+
+
+  <!-- Footer -->
+    <footer id="footer">
+      <div class="bg-gradient-to-r from-orange  to-blue_custom2">
+      <!-- <div class="bg-blue_custom2"> -->
+        <div class="container py-10 ">
+          <div class="flex flex-col gap-y-5 lg:flex-row">
+            <div class="w-full lg:w-1/3">
+              <img src="./asset/img/logo-main-white-x4.png" class="w-[150px]" alt="">
+            </div>
+  
+            <div class="flex flex-col lg:w-1/3">
+              <h5 class="text-xl text-white font-semibold mb-2">
+                Hubungi Kami
+              </h5>
+              <ul class="list-disc marker:text-white text-white ps-5 lg:ps-0">
+                <li>
+                  <a href="" class="hover:underline">
+                    rifkibkz@gmail.com <br>
+                    Jl. M.Yamin No.20 Purwokerto Selatan <br>
+                    Jawa Tengah
+                  </a>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="flex flex-col lg:w-1/3 lg:justify-center lg:items-center">
+              <h5 class="text-xl text-white font-semibold mb-2 lg:me-4">
+                Tautan
+              </h5> 
+              <ul class="list-disc marker:text-white text-white ps-5 lg:ps-0">
+                <div class="flex flex-col gap-y-2">
+                  <li>
+                    <a href="" class="hover:underline">
+                      Beranda
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="" class="hover:underline">
+                      Features
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="hover:underline">
+                      Showcase
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="hover:underline">
+                      Pricing
+                    </a>
+                  </li>
+                </div>
+              </ul>
+  
+            </div>
+          </div>
+  
+          <div class="w-full mt-5 border-t-2 border-white">
+            <div class="flex justify-between mt-5">
+              <h5 class="text-xl text-white font-semibold mb-2">
+                Payna Finance
+              </h5> 
+  
+              <p class="text-white">©Copyright 2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!-- End Footer -->
+
+</body>
+</html>
