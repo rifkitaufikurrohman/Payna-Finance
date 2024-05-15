@@ -23,14 +23,16 @@
           </a>
         </div>
 
-        <div class="flex items-center">
-          <button id="hamburger" name="hamburger" type="button" class="block right-4 md:hidden">
+        <div class="flex items-center md:hidden">
+          <button id="hamburger" name="hamburger" type="button" class="block right-4">
             <span class="transition duration-300 origin-top-left hamburger-line"></span>
             <span class="transition duration-300 hamburger-line"></span>
             <span class="transition duration-300 origin-bottom-left hamburger-line"></span>
           </button>
+        </div>
 
-          <nav id="nav-menu" class="hidden md:block">
+        <div class="hidden md:block">
+          <nav id="nav-menu" class="">
             <ul class="md:flex">
               <li class="group">
                 <a href="#home" class="flex py-2 mx-5 text-base text-dark group-hover:underline">Home</a>
@@ -48,8 +50,8 @@
           </nav>  
         </div>
 
-        <div class="">
-          <button class="px-5 py-2 bg-gray_custom rounded-full text-black hidden lg:block hover:bg-gray-200 transition-all ease-in-out duration-300">
+        <div class="hidden lg:block">
+          <button class="px-5 py-2 bg-gray_custom rounded-full text-black hover:bg-gray-200 transition-all ease-in-out duration-300">
             Sign In
           </button>
         </div>
